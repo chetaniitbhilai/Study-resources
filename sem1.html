@@ -1,0 +1,48 @@
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css"> -->
+
+</head>
+<style>
+body {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    height: 100vh;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+ 
+    50% {
+        background-position: 100% 50%;
+    }
+ 
+    100% {
+        background-position: 0% 50%;
+    }
+}
+</style>
+<body>
+<div class="d-flex flex-column justify-content-center w-100 h-100"></div>
+<div class="container">
+  <h2>SELECT SEMESTER</h2>
+  <div class="dropdown">
+    <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown" style="font-size:20px">Semester
+    <span class="caret" ></span></button>
+    <ul class="dropdown-menu" role="menu" aria-labelledby="menu1" style="font-size:15px">
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="http://localhost/www/project/linearalgebra1.html">LinearAlgebra1</a></li>
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="http://localhost/www/project/ITP.html">Introduction to programming</a></li>
+    </ul>
+  </div>
+</div>
+
+</body>
+</html>
