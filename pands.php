@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
+  <body>
+
+        <style>
+        table, th, td {
+          border:1px solid black;
+        }
+        .class{
+          margin: 0 100px 0 100px;
+        }
+        /* tbody > tr :second-of-type {
+          text-align: right;
+          background-color: rgb(225, 229, 244);
+        } */
+        </style>
+        <br><br>
+        <center><h2>LECTURE NOTES</h2></center>
+        <table style="width:80%" class="class">
+
+          <tr>
+          <center>
+            <th>Serial No</th>
+            <th>Topic</th>
+          </center>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td><a href="\www\project\Lecture Notes_1.pdf" target="_blank">Lecture1</a></td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td><a href="\www\project\Lecture Notes_2.pdf" target="_blank">Lecture2</a></td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td><a href="\www\project\Lecture Notes_3.pdf" target="_blank">Lecture3</a></td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td><a href="\www\project\Lecture Notes_4.pdf" target="_blank">Lecture4</a></td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td><a href="\www\project\Lecture Notes_5.pdf" target="_blank">Lecture5</a></td>
+          </tr>
+          <tr>
+            <td>6</td>
+            <td><a href="\www\project\Lecture Notes_6.pdf" target="_blank">Lecture6</a></td>
+          </tr>
+          <tr>
+            <td>7</td>
+            <td><a href="\www\project\Lecture Notes_7.pdf" target="_blank">Lecture7</a></td>
+          </tr>
+          <tr>
+            <td>8</td>
+            <td><a href="\www\project\Lecture Notes_8.pdf" target="_blank">Lecture8</a></td>
+          </tr>
+          <tr>
+            <td>9</td>
+            <td><a href="\www\project\Lecture Notes_9.pdf" target="_blank">Lecture9</a></td>
+          </tr>
+          <tr>
+            <td>10</td>
+            <td><a href="\www\project\Lecture Notes_10.pdf" target="_blank">Lecture10</a></td>
+          </tr>
+          <tr>
+            <td>11</td>
+            <td><a href="\www\project\Lecture Notes_11.pdf" target="_blank">Lecture11</a></td>
+          </tr>
+          <tr>
+            <td>12</td>
+            <td><a href="\www\project\Lecture Notes_12.pdf" target="_blank">Lecture12</a></td>
+          </tr>
+          <tr>
+            <td>13</td>
+            <td><a href="\www\project\Lecture Notes_13.pdf" target="_blank">Lecture13</a></td>
+          </tr>
+          <tr>
+            <td>14</td>
+            <td><a href="\www\project\Lecture Notes_14.pdf" target="_blank">Lecture14</a></td>
+          </tr>
+          <tr>
+            <td>15</td>
+            <td><a href="\www\project\Lecture Notes_15.pdf" target="_blank">Lecture15</a></td>
+          </tr>
+          <tr>
+            <td>16</td>
+            <td><a href="\www\project\Lecture Notes_16.pdf" target="_blank">Lecture16</a></td>
+          </tr>
+        </table>
+
+<br><br><br><br><br>
+
+          <center><h2>TUTORIAL</h2></center>
+          <table style="width:80%" class="class">
+          <tr>
+          <center>
+            <th>Serial No</th>
+            <th>Topic</th>
+          </center>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td><a href="\www\project\Tutorial_1.pdf" target="_blank">Tutorial1</a></td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td><a href="\www\project\Tutorial_1_Sol.pdf" target="_blank">Tutorial1Solutions</a></td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td><a href="\www\project\Tutorial_2.pdf" target="_blank">Tutorial2</a></td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td><a href="\www\project\Tutorial_2_Sol.pdf" target="_blank">Tutorial2Solutions</a></td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td><a href="\www\project\Tutorial_3.pdf" target="_blank">Tutorial3</a></td>
+          </tr>
+          <tr>
+            <td>6</td>
+            <td><a href="\www\project\Tutorial_3_Sol.pdf" target="_blank">Tutorial3Solutions</a></td>
+          </tr>
+          <tr>
+            <td>7</td>
+            <td><a href="\www\project\Tutorial_4.pdf" target="_blank">Tutorial4</a></td>
+          </tr>
+          <tr>
+            <td>8</td>
+            <td><a href="\www\project\Tutorial_4_Sol.pdf" target="_blank">Tutorial4Solutions</a></td>
+          </tr>
+          <tr>
+            <td>9</td>
+            <td><a href="\www\project\Tutorial_5.pdf" target="_blank">Tutorial5</a></td>
+          </tr>
+          <tr>
+            <td>10</td>
+            <td><a href="\www\project\Tutorial_5_Sol.pdf" target="_blank">Tutorial5Solutions</a></td>
+          </tr>
+          <tr>
+            <td>11</td>
+            <td><a href="\www\project\Tutorial_6.pdf" target="_blank">Tutorial6</a></td>
+          </tr>
+          <tr>
+            <td>12</td>
+            <td><a href="\www\project\Tutorial_6_Sol.pdf" target="_blank">Tutorial6Solutions</a></td>
+          </tr>
+        </table>
+        <br><br><br><br><br>
+
+  </body>
+</html>

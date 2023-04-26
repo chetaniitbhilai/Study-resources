@@ -40,7 +40,7 @@ body, html {
 }
 
 /* Full-width input fields */
-input[type=text], input[type=password] {
+input[type=email], input[type=password] {
   width: 100%;
   padding: 15px;
   margin: 5px 0 22px 0;
@@ -48,7 +48,7 @@ input[type=text], input[type=password] {
   background: #f1f1f1;
 }
 
-input[type=text]:focus, input[type=password]:focus {
+input[type=email]:focus, input[type=password]:focus {
   background-color: #ddd;
   outline: none;
 }
@@ -133,7 +133,7 @@ h2
     <h1>SignUp</h1>
 
     <label for="email"><b>Email</b></label>
-    <input type="text" placeholder="Enter Email" name="email" required>
+    <input type="email" placeholder="Enter Email" name="email" required>
 
     <label for="psw"><b>Password</b></label>
     <input type="password" placeholder="Enter Password" name="psw" required>

@@ -1,2 +1,1 @@
-chetan,hello,
-ayush,ayushpagal,
+chetan@iitbhilai.ac.in,Chetan1234,
