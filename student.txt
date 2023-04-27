@@ -1,1 +1,3 @@
 chetan@iitbhilai.ac.in,Chetan1234,
+himanshuso@iitbhilai.ac.in,12345678,
+ayush@iitbhilai.ac.in,abcdefg,
