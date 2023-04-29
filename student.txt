@@ -1,3 +1,6 @@
 chetan@iitbhilai.ac.in,Chetan1234,
 himanshuso@iitbhilai.ac.in,12345678,
 ayush@iitbhilai.ac.in,abcdefg,
+ayushkumar@iitbhilai.ac.in,Ayush@2003,
+sank@gmail.com,123,
+darshm@iitbhilai.ac.in,abccdefg,

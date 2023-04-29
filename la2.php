@@ -14,11 +14,58 @@
         .class{
           margin: 0 100px 0 100px;
         }
-        /* tbody > tr :second-of-type {
-          text-align: right;
-          background-color: rgb(225, 229, 244);
-        } */
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+          }
+
+          body {
+            background-color: #111;
+            display: flex;
+            flex-direction: column;
+            /* justify-content: left; */
+            /* align-items: left; */
+            min-height: 100vh;
+          }
+          .waviy {
+            /* position: left; */
+            margin: 10px 200px 10px 00px;
+          }
+          .waviy span {
+            position: left;
+            display: inline-block;
+            font-size: 40px;
+            color: #fff;
+            text-transform: uppercase;
+            animation: flip 2s infinite;
+            animation-delay: calc(.2s * var(--i))
+          }
+          @keyframes flip {
+            0%,80% {
+              transform: rotateY(360deg)
+            }
+          }
+          .wrapper{
+              display: flex;
+              flex-direction: row;
+              margin: 10px 300px 10px 50px;
+          }
+          img{
+            margin: 10px 300px 10px 850px;
+          }
         </style>
+<br><br>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/7/73/Logo_IIT_Bhilai.png" alt="IIT BHILAI LOGO" height="200" width="200">
+        <div class="wrappper">
+
+          <div class="waviy">
+            <span style="--i:1">LINEAR ALGEBRA2</span>
+
+           </div>
+
+         <div class="container">
+
         <br><br>
         <center><h2>LECTURE NOTES</h2></center>
         <table style="width:80%" class="class">

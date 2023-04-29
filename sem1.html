@@ -9,6 +9,66 @@
 
 </head>
 <style>
+* {
+           padding: 0;
+           margin: 0;
+           font-family: sans-serif;
+       }
+
+       body {
+           background: darkslategray;
+       }
+
+       .container {
+           text-align:left;
+           position: absolute;
+           top: 50%;
+           left: 50%;
+           transform: translate(-50%, -50%);
+           width: 100%;
+       }
+
+       .container span {
+           display: block;
+       }
+
+       .text1 {
+           color: white;
+           font-size: 70px;
+           font-weight: 700;
+           letter-spacing: 8px;
+           margin-bottom: 20px;
+           background: darkslategray;
+           position: relative;
+           animation: text 3s 1;
+           text-align: left;
+       }
+
+       .text2 {
+           font-size: 30px;
+           color:yellow;
+           font-family: Georgia, serif;
+           text-align: left;
+       }
+
+       @keyframes text {
+           0% {
+               color: black;
+               margin-bottom: -40px;
+           }
+
+           30% {
+               letter-spacing: 25px;
+               margin-bottom: -40px;
+           }
+
+           85% {
+               letter-spacing: 8px;
+               margin-bottom: -40px;
+           }
+       }
+
+/*
 body {
     background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
     background-size: 400% 400%;
@@ -28,24 +88,34 @@ body {
     100% {
         background-position: 0% 50%;
     }
-}
+}*/
 h2{
-  margin: 10px 300px 10px 230px;
+  margin: 10px 250px 10px 500px;
 }
 .dropdown{
-    margin: 10px 300px 10px 260px;
+    margin: 10px 300px 10px 500px;
+}
+img{
+  margin: 10px 300px 10px 850px;
 }
 </style>
 <body>
 <!-- <div class="d-flex flex-column justify-content-center w-100 h-100"></div> -->
-<br><br><br><br><br><br><br><br><br><br>
 
+  <img src="https://upload.wikimedia.org/wikipedia/commons/7/73/Logo_IIT_Bhilai.png" alt="IIT BHILAI LOGO" height="200" width="200">
+<br>
 <div class="container">
-  <h2>Select Course</h2>
+        <div class="row">
+            <span class="text1">Hello!</span>
+            <span class="text2">USER</span>
+        </div>
+    </div>
+<div class="container">
+  <h2>SELECT COURSE</h2>
   <div class="dropdown">
-    <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown" style="font-size:20px">Course
+    <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown" style="font-size:20px;width:150px">Course
     <span class="caret" ></span></button>
-    <ul class="dropdown-menu" role="menu" aria-labelledby="menu1" style="font-size:15px">
+    <ul class="dropdown-menu" role="menu" aria-labelledby="menu1" style="font-size:20px">
       <li role="presentation"><a role="menuitem" tabindex="-1" href="http://localhost/www/project/la.php">Linear Algebra1</a></li>
       <li role="presentation"><a role="menuitem" tabindex="-1" href="http://localhost/www/project/ITP.php">Introducion to programming</a></li>
       <li role="presentation"><a role="menuitem" tabindex="-1" href="http://localhost/www/project/pands.php">Probability and Statistics</a></li>
